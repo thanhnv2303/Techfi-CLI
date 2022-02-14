@@ -62,7 +62,7 @@
     "ini": "2.0.0",
     "inquirer": "8.2.0",
     "is-running": "2.1.0",
-    "latest-version": "5.1.0",
+    "latest-version": "6.0.0",
     "listr": "0.14.3",
     "lodash": "4.17.21",
     "log-symbols": "4.1.0",
