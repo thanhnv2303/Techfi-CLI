@@ -7,7 +7,7 @@ process.title = 'ghost';
 const argv = process.argv.slice(2);
 
 if (argv.length === 0) {
-    console.error('No command specified. Run `ghost help` for usage');
+    console.error('No command specified. Run `techfi help` for usage');
     process.exit(1);
 }
 
