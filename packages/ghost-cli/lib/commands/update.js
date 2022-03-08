@@ -112,8 +112,8 @@ class UpdateCommand extends Command {
 
         await this.runCommand(DoctorCommand, {quiet: true, categories: ['update'], ...argv});
         await this.runCommand(MigrateCommand, {quiet: true});
-        const result = await this.ui.run(() => this.version(context), 'Checking for latest Ghost version');
-
+        // const result = await this.ui.run(() => this.version(context), 'Checking for latest Ghost version');
+        const result = true;
         if (!result) {
             this.ui.log('All up to date!', 'cyan');
             return;

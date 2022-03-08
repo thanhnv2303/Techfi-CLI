@@ -116,7 +116,7 @@ class InstallCommand extends Command {
 
         let resolvedVersion = null;
         if (zip) {
-            resolvedVersion = await versionFromZip(zip);
+            resolvedVersion = await versionFromZip(zip,null,{v1, force, channel});
         } else {
             resolvedVersion = await resolveVersion(version, null, {v1, force, channel});
         }
